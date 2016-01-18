@@ -1,0 +1,66 @@
+body {
+
+}
+
+#Navigation {
+	width: 100%;
+	background-color:white;
+}
+
+nav {
+	background: white;
+	height: 55px ;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 160%;
+	font-color: gray;
+
+}
+nav a {
+	color: gray;
+	text-decoration: none;
+	padding-right: 20px;
+
+}
+nav a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.main {
+	width: 100%;
+	height : 90%;
+ -webkit-filter: grayscale(60%);
+ filter: grayscale(60%);
+	position: relative;
+	
+}
+
+#Bannertxt h2 {
+	font-size: 250%;
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+
+
+}
+
+#Bannertxt {
+	position: absolute;
+	top:90px;
+	left: 700px;
+	background-color: rgba(0,0,0,0.4);
+	margin-right: -20px;
+	width:450px;
+	
+	
+}
+
+
+
+img {
+   
+}
+
+footer {}
