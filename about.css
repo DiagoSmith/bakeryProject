@@ -1,0 +1,140 @@
+body { background-image: url("assets/About/cookiebackground.jpg");
+
+}
+
+#Navigation {
+	width: 100%;
+	
+}
+
+nav {
+	background-color: rgba(255,255,255,0.8);
+	height: 55px ;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 160%;
+	font-color: gray;
+
+
+}
+nav a {
+	color: gray;
+	text-decoration: none;
+	padding-right: 20px;
+
+}
+nav a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.main {
+	width: 100%;
+	height : 90%;
+ -webkit-filter: grayscale(60%);
+ filter: grayscale(60%);
+	position: relative;
+	
+}
+
+#Bannertxt h2 {
+	font-size: 250%;
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+
+
+}
+
+#Bannertxt {
+	position: absolute;
+	top:90px;
+	left: 700px;
+	background-color: rgba(0,0,0,0.4);
+	margin-right: -20px;
+	width:450px;
+		
+}
+
+h2 {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	color: rgb(39,172,159);
+
+}
+
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+
+
+}
+
+#thenTitle {
+	padding-top: 30px;
+	float:left;
+	width: 300px;
+	padding-left: 400px;
+	border: 1px solid transparent;
+	color: rgb(39,172,159);
+
+}
+
+
+#nowTitle {
+	padding-top: 30px;
+	float:right;
+	width:300px;
+	padding-right: 200px;
+	border: 1px solid transparent;
+
+	
+}
+
+#nowTitle:hover {
+	color: red;
+}
+
+#container {
+	width: 800px;
+	margin-left: 220px;
+
+}
+
+#thenAbout {
+	float: left;
+	width: 800px;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: rgba(0,0,0,0.2);
+}
+
+p{
+	float: left;
+	width:50%;
+}
+
+#man {
+	float:right;
+	margin-top: 10px;
+}
+
+
+#nowAbout { 
+	float: left;
+	width: 800px;
+	font-family: Verdana, Geneva, sans-serif;
+	display:none ;
+	background-color: rgba(0,0,0,0.2);
+	
+
+	
+}
+
+#goods {
+	float:right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+
+footer {}
