@@ -1,0 +1,255 @@
+body {
+
+	background-image: url("assets/background.jpg");
+}
+
+
+#Navigation {
+	width: 100%;
+	background-color: rgba(255,255,255);
+}
+
+#navBar1 {
+	background: rgba(255,255,255,0.8);
+	height: 55px ; 
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 160%;
+	font-color: gray;
+	margin-bottom: 60px;
+
+
+
+}
+#navBar1 a {
+	color: gray;
+	text-decoration: none;
+	padding-right: 20px;
+
+}
+#navBar1 a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+
+
+#navbar2 {
+	background: rgba(255,255,255,0.4);
+	height: 55px ; 
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	
+}
+
+.button {
+
+    border: none;
+    background-color: rgb(39,172,159); color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 10px 10px 5px #888888;
+
+
+}
+
+.buttonProductBrood {
+
+    border: none;
+    background-color: white; color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    height: 70px;
+
+
+
+}
+
+.buttonProductPastry {
+
+    border: none;
+    background-color: white; color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    height: 70px;
+
+
+}
+
+.buttonProductCroissants {
+
+    border: none;
+    background-color: white; color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    height: 70px;
+
+
+}
+
+.buttonProductCake {
+
+    border: none;
+    background-color: white; color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    height: 70px;
+   
+
+
+}
+
+
+
+
+h2 {
+
+	color: rgb(39,172,159);
+
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+
+
+
+#broodBox {
+
+	display: none;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background: white;
+	height: 350px;
+	box-shadow: 10px 10px 5px #888888;
+	margin-bottom: 30px;
+	
+
+}
+
+.broodImg {
+
+	height: 200px;
+	width: 250px;
+	margin-top: 40px;
+
+	}
+
+
+#pastriesBox {
+
+	display: none;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background: white;
+	height: 350px;
+	box-shadow: 10px 10px 5px #888888;
+	margin-bottom: 30px;
+}
+
+.pastryImg {
+
+	height: 200px;
+	width: 250px;
+	margin-top: 40px;
+
+	}
+
+#croissantsBox {
+
+	display: none;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background: white;
+	height: 350px;
+	box-shadow: 10px 10px 5px #888888;
+	margin-bottom: 30px;
+}
+
+.croissantImg {
+
+	height: 200px;
+	width: 250px;
+	margin-top: 40px;
+	}
+
+#cakeBox {
+
+	display: none;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background: white;
+	height: 350px;
+	box-shadow: 10px 10px 5px #888888;
+	margin-bottom: 30px;
+}
+.cakeImg {
+
+	height: 200px;
+	width: 250px;
+	margin-top: 40px;
+}
+
+ul.productList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: white;
+    float: left;
+}
+
+li.productList {
+
+	margin-top: 10px;
+}
+
+.broodImg {
+	display: none;
+	float: left;
+
+}
+
+.pastryImg {
+	display: none;
+	float: left;
+
+}
+
+.croissantImg {
+	display: none;
+	float: left;
+
+}
+
+.cakeImg {
+	display: none;
+	float: left;
+
+}
