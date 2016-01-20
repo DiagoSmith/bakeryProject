@@ -1,6 +1,7 @@
 body {
 
 	background-image: url("assets/background.jpg");
+
 }
 
 #Navigation {
@@ -43,11 +44,12 @@ nav a:hover {
 	font-size: 250%;
 	color: white;
 	font-family: Verdana, Geneva, sans-serif;
+
 	padding-right: 20px;
 	padding-left: 20px;
 
-
 }
+
 
 #deliciousText {
 
@@ -75,7 +77,15 @@ nav a:hover {
 	background-color: rgba(39,172,159,0.6);
 	margin-right: -20px;
 	width:500px;
-	
+}
+#Bannertxt {
+	position: absolute;
+	top:90px;
+	left: 700px;
+	background-color: rgba(0,0,0,0.4);
+	margin-right: -20px;
+	width:450px;
+
 	
 }
 
@@ -85,4 +95,3 @@ img {
    
 }
 
-footer {}
