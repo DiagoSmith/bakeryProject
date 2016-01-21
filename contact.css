@@ -14,7 +14,7 @@ font-size: 20px;
 	width:60%;
 }
 
-h2 {
+h3 {
 	text-align: center;
 	font-family: Verdana, Geneva, sans-serif;
 	color: rgb(39,172,159);
@@ -33,7 +33,7 @@ li:hover {
    	margin-top: 30px;
     padding: 20px;
     background: white;
-    background: url(locations.jpg) no-repeat center center fixed; 
+    background: url(locations.jpg) ; 
 
 }
 
