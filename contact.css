@@ -1,6 +1,40 @@
+.icon-amsterdam {
+   background:url('icon-amsterdam.gif') 28% 45% no-repeat no-repeat;
+   padding-left: 5px;
+}
+
+.icon-apeldoorn {
+   background:url('icon-apeldoorn.gif') 28% 47% no-repeat no-repeat;
+   padding-left: 5px;
+}
+
+.icon-goes {    background:url('icon-goes.gif') 28% 47% no-repeat no-repeat;
+padding-left: 5px; }
+
+.icon-utrecht {
+   background:url('icon-utrecht.gif') 28% 47% no-repeat no-repeat;
+   padding-left: 5px;
+}
+
+.amsterdam {
+	color: white;
+}
+.apeldoorn {
+	color: white;
+}
+.goes {
+	color: white;
+}
+.utrecht {
+	color: white;
+}
 body {
 	font-family: Verdana, Geneva, sans-serif;
 
+}
+
+li {
+	color:gray;
 }
 
 #Contacttitle {
