@@ -1,10 +1,9 @@
 $(document).ready(function() {
-
-
 	$(".amsterdam").hide();
 	$(".apeldoorn").hide();
 	$(".goes").hide();
 	$(".utrecht").hide();
+	$(".hideimg").hide();
 
 	$(".hideshowams").hover(function() {
 		$(".amsterdam").toggle();
@@ -22,4 +21,4 @@ $(document).ready(function() {
 		$(".utrecht").toggle();
 		$('#Container').css("background", "url(locations-utrecht.jpg)");
 	});
-});
+});	
